@@ -4,40 +4,39 @@
     height: 600px;
     background-color: black;
     padding-top: 15px;
+   
 }
-.enfoque{
+.light{
     height: 180px;
     width: 180px;
     border-radius: 100%;
     background-color: blue;
+    margin-top: 5px;
+    margin-right: 5px;
 }   
 .red{
+    background-color: rgb(77, 4, 4);
+}
+.light-red{
     background-color: red;
-    height: 180px;
-    width: 180px;
-    border-radius: 100%;
-   
 }
 .yellow{
-    background-color: rgb(255, 225, 0);
-    height: 180px;
-    width: 180px;
-    border-radius: 100%;
-    margin-top:10px;
-   
+    background-color: rgb(108, 96, 8); 
+}
+.light-yellow{
+    background-color: yellow;
 }
 .green{
-    background-color: rgb(12, 163, 27);
-    height: 180px;
-    width: 180px;
-    border-radius: 100%;
-    margin-top:10px;
-   
+    background-color: rgb(8, 67, 14);
 }
-.glow{
-    margin:30px;
-    border-radius:100%;
-    box-shadow: 0 0 30px 20px greenyellow;
-    animation: glow 1.5s
+.light-green{
+    background-color: rgb(134, 215, 12);
+}
+button{
+    width: 200px;
+    height:50px;
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
 }
 
